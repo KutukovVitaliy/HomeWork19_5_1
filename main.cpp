@@ -26,6 +26,7 @@ int main() {
         TxtFile >> CurrentWord;
         if(CurrentWord == WordToSearch) count++;
     }
+    TxtFile.close();
     std::cout << "count = " << count << std::endl;
     return 0;
 }
